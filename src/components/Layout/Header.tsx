@@ -1,7 +1,7 @@
 import { Link } from 'react-router'
 
-import CustomInput from './CustomInput'
-import logo from '../assets/react.svg'
+import CustomInput from '../UI/CustomInput'
+import logo from '../../assets/react.svg'
 
 import { FaHeart } from 'react-icons/fa'
 import { FaRegUserCircle } from 'react-icons/fa'

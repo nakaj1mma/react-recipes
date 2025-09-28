@@ -4,6 +4,7 @@ import { createBrowserRouter, Navigate } from 'react-router'
 // ======= Local Components / Pages =======
 import { HomePage, LoginPage, RegisterPage } from './pages'
 import { AuthLayout, MainLayout } from './layouts'
+import { action } from './pages/Auth/auth.action'
 
 export const router = createBrowserRouter([
   {
@@ -22,10 +23,12 @@ export const router = createBrowserRouter([
       {
         path: 'login',
         element: <LoginPage />,
+        action: action,
       },
       {
         path: 'register',
         element: <RegisterPage />,
+        action: action,
       },
     ],
   },

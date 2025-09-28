@@ -28,7 +28,7 @@ export default function Header() {
             </Link>
           </li>
           <li>
-            <Link to='/profile'>
+            <Link to='/auth/register'>
               <FaRegUserCircle fill='#ffff' fontSize='1.2rem' />
             </Link>
           </li>
